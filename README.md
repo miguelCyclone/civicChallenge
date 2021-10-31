@@ -20,6 +20,7 @@ This is my first program in Rust, so first I coded a JS program to visualize the
 * Custom DAG: cargo run dag removeNode
 *   a) dag= a-b,b-c,c-d,c-e,e-f
 *   b) removeNode is one character, for example c
+* Input all character in lowercase
 
 # Tests
 * Testing: cargo test
