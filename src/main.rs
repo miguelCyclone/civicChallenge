@@ -192,8 +192,7 @@ pub fn wrapper(dag: &str, del_ver: &str) -> String {
   println!("{:}", "Strip: ".to_owned() + &del_ver.to_owned());
   let mut edges: Vec<&str> = dag.split(',').collect();
   edges.sort();
-  let edges_aux = edges.clone();
-  let _tree_dag = make_dag(edges_aux);
+  let _tree_dag = make_dag(edges);
   let strip_tree_dag = strip_dag(del_ver, _tree_dag);
   let print_tree_dag = print_dag(strip_tree_dag);
   println!("{:}", "Output: ".to_owned() + &print_tree_dag);
@@ -301,8 +300,7 @@ mod unit {
     let dag = "a-b,c-d,b-c";
     let mut edges: Vec<&str> = dag.split(',').collect();
     edges.sort();
-    let edges_aux = edges.clone();
-    let vect = make_dag(edges_aux);
+    let vect = make_dag(edges);
     let vect_hard_coded = [
       Node {
         name: "a".to_string(),
@@ -332,8 +330,7 @@ mod unit {
     let dag = "a-b,b-c,c-d,b-d,c-e";
     let mut edges: Vec<&str> = dag.split(',').collect();
     edges.sort();
-    let edges_aux_two = edges.clone();
-    let vect = make_dag(edges_aux_two);
+    let vect = make_dag(edges);
     let vect_hard_coded = [
       Node {
         name: "a".to_string(),
@@ -364,8 +361,7 @@ mod unit {
     let dag = "a-b,c-d,b-c";
     let mut edges: Vec<&str> = dag.split(',').collect();
     edges.sort();
-    let edges_aux = edges.clone();
-    let vect = make_dag(edges_aux);
+    let vect = make_dag(edges);
     let strip_tree_dag = strip_dag(del_ver, vect);
 
     let vect_strip_hard_coded = [
@@ -392,8 +388,7 @@ mod unit {
     let dag = "a-b,b-c,c-d,b-d,c-e";
     let mut edges: Vec<&str> = dag.split(',').collect();
     edges.sort();
-    let edges_aux = edges.clone();
-    let vect = make_dag(edges_aux);
+    let vect = make_dag(edges);
     let strip_tree_dag = strip_dag(del_ver, vect);
 
     let vect_strip_hard_coded = [
@@ -421,8 +416,7 @@ mod unit {
     let dag= "a-b,c-d,b-c";
     let mut edges: Vec<&str> = dag.split(',').collect();
     edges.sort();
-    let edges_aux = edges.clone();
-    let vect = make_dag(edges_aux);
+    let vect = make_dag(edges);
     let strip_tree_dag = strip_dag(del_ver, vect);
     let print_tree_dag = print_dag(strip_tree_dag);
     let print_tree_dag_hard_coded = "a-b,b-d";
@@ -435,8 +429,7 @@ mod unit {
     let dag = "a-b,b-c,c-d,b-d,c-e";
     let mut edges: Vec<&str> = dag.split(',').collect();
     edges.sort();
-    let edges_aux = edges.clone();
-    let vect = make_dag(edges_aux);
+    let vect = make_dag(edges);
     let strip_tree_dag = strip_dag(del_ver, vect);
     let print_tree_dag = print_dag(strip_tree_dag);
     let print_tree_dag_hard_coded = "a-b,b-d,b-d,b-e";
