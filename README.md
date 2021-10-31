@@ -11,9 +11,9 @@
 
 # Workflow
 This is my first program in Rust, so first I coded a JS program to visualize the logical flow
-* 1) First:  Create a DAG from the string
-* 2) Second: Strip the DAG
-* 3) Third:  Print the DAG alphabetically sorted
+* 1) Create a DAG from the string
+* 2) Strip the DAG
+* 3) Print the DAG alphabetically sorted
 
 # Commands
 * To run the help menu: run cargo
