@@ -14,8 +14,8 @@ This is my first program in Rust, so first I coded a JS program to visualize the
 * 3) Print the DAG alphabetically sorted
 
 # Commands
-* To run the help menu: run cargo
-* To run example: run cargo example
+* To run the help menu: cargo run
+* To run example: cargo run example
 * To run a custom DAG, Write: cargo run dag removeNode
 *   a) Where, dag= a-b,b-c,c-d,c-e,e-f
 *   b) Where, removeNode is one character, for example c
