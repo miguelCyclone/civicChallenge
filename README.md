@@ -1,6 +1,4 @@
 # Civic Senior Blockchain Engiennier Challenge 2
-* Author: Miguel Díaz Montiel, miguel.diaz.montiel@estudiantat.upc.edu, Oct-30-2021
-
 # Description
 * This script takes two arguments from the CLI
 * The first argument is a string DAG, from here the program creates a DAG
