@@ -16,9 +16,10 @@ This is my first program in Rust, so first I coded a JS program to visualize the
 # Commands
 * Help menu: cargo run
 * Example: cargo run example
-* Custom DAG : cargo run dag removeNode
-*   a) Where, dag= a-b,b-c,c-d,c-e,e-f
-*   b) Where, removeNode is one character, for example c
+*   The hardcoded input is: cargo run a-b,b-c,c-d c
+* Custom DAG: cargo run dag removeNode
+*   a) dag= a-b,b-c,c-d,c-e,e-f
+*   b) removeNode is one character, for example c
 
 # Tests
 * Testing: cargo test
