@@ -14,14 +14,14 @@ This is my first program in Rust, so first I coded a JS program to visualize the
 * 3) Print the DAG alphabetically sorted
 
 # Commands
-* To run the help menu: cargo run
-* To run example: cargo run example
-* To run a custom DAG, Write: cargo run dag removeNode
+* Help menu: cargo run
+* Example: cargo run example
+* Custom DAG : cargo run dag removeNode
 *   a) Where, dag= a-b,b-c,c-d,c-e,e-f
 *   b) Where, removeNode is one character, for example c
 
 # Tests
-* To run tests: cargo test
+* Testing: cargo test
 * There are 10 tests in total
 * Seven Unit Tests with two different DAGs
 * Three System Tests with three different DAGs
