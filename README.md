@@ -21,6 +21,7 @@ This is my first program in Rust, so first I coded a JS program to visualize the
 *   b) Where, removeNode is one character, for example c
 
 # Tests
+* To run tests: cargo test
 * There are 10 tests in total
 * Seven Unit Tests with two different DAGs
 * Three System Tests with three different DAGs
