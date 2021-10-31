@@ -16,13 +16,13 @@ This is my first program in Rust, so first I coded a JS program to visualize the
 # Commands
 * Help menu: cargo run
 * Example: cargo run example
-*   The hardcoded input is: cargo run a-b,b-c,c-d c
+    The hardcoded input is: cargo run a-b,b-c,c-d c
 * Custom DAG: cargo run dag removeNode
-*   a) dag= a-b,b-c,c-d,c-e,e-f
-*   b) removeNode is one character, for example c
+    a) dag= a-b,b-c,c-d,c-e,e-f
+    b) removeNode is one character, for example c
 
 # Tests
 * Testing: cargo test
 * There are 10 tests in total
-* Seven Unit Tests with two different DAGs
-* Three System Tests with three different DAGs
+* + Seven Unit Tests with two different DAGs
+* + Three System Tests with three different DAGs
