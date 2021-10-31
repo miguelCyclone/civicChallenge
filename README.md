@@ -19,3 +19,8 @@ This is my first program in Rust, so first I coded a JS program to visualize the
 * To run a custom DAG, Write: cargo run dag removeNode
 *   a) Where, dag= a-b,b-c,c-d,c-e,e-f
 *   b) Where, removeNode is one character, for example c
+
+# Tests
+* There are 10 tests in total
+* Seven Unit Tests with two different DAGs
+* Three System Tests with three different DAGs
