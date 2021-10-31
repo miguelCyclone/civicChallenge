@@ -24,5 +24,5 @@ This is my first program in Rust, so first I coded a JS program to visualize the
 # Tests
 * Testing: cargo test
 * There are 10 tests in total
-+   Seven Unit Tests with two different DAGs
+-   Seven Unit Tests with two different DAGs
 +   Three System Tests with three different DAGs
