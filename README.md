@@ -1,4 +1,4 @@
-# Civic Senior Blockchain Engiennier Challenge 2
+# DAG implementation
 # Description
 * This script takes two arguments from the CLI
 * The first argument is a string DAG, from here the program creates a DAG
